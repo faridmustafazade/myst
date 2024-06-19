@@ -1,13 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: big-black;
+  src: url("./assets/fonts/BigShouldersDisplay/static/BigShouldersDisplay-Black.ttf");
+}
+@font-face {
+  font-family: big-bold;
+  src: url("./assets/fonts/BigShouldersDisplay/static/BigShouldersDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: big-extrabold;
+  src: url("./assets/fonts/BigShouldersDisplay/static/BigShouldersDisplay-ExtraBold.ttf");
+}
+@font-face {
+  font-family: big-extralight;
+  src: url("./assets/fonts/BigShouldersDisplay/static/BigShouldersDisplay-ExtraLight.ttf");
+}
+@font-face {
+  font-family: big-light;
+  src: url("./assets/fonts/BigShouldersDisplay/static/BigShouldersDisplay-Light.ttf");
+}
+@font-face {
+  font-family: big-medium;
+  src: url("./assets/fonts/BigShouldersDisplay/static/BigShouldersDisplay-Medium.ttf");
+}
+@font-face {
+  font-family: big-regular;
+  src: url("./assets/fonts/BigShouldersDisplay/static/BigShouldersDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: big-semibold;
+  src: url("./assets/fonts/BigShouldersDisplay/static/BigShouldersDisplay-SemiBold.ttf");
+}
+@font-face {
+  font-family: big-thin;
+  src: url("./assets/fonts/BigShouldersDisplay/static/BigShouldersDisplay-Thin.ttf");
+}
+
+/* Space Mono */
+
+@font-face {
+  font-family: mono-bold;
+  src: url("./assets/fonts/Space_Mono//SpaceMono-Bold.ttf");
+}
+@font-face {
+  font-family: mono-bolditalic;
+  src: url("./assets/fonts/Space_Mono/SpaceMono-BoldItalic.ttf");
+}
+@font-face {
+  font-family: mono-italic;
+  src: url("./assets/fonts/Space_Mono/SpaceMono-Italic.ttf");
+}
+@font-face {
+  font-family: mono-regular;
+  src: url("./assets/fonts/Space_Mono/SpaceMono-Regular.ttf");
 }
