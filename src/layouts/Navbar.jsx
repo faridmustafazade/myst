@@ -21,12 +21,15 @@ const Navbar = () => {
           </p>
           <p className="font-big-extralight text-5xl">HOME</p>
         </Link>
-        <div className="pl-6 flex flex-col gap-5 w-[24.5%] border-l border-b border-primaryBorder py-5">
+        <Link
+          to={"/about"}
+          className="pl-6 flex flex-col gap-5 w-[24.5%] border-l border-b border-primaryBorder py-5"
+        >
           <p className="font-mono-regular flex justify-center items-center w-5 h-5 border border-primaryBorder p-4">
             2
           </p>
           <p className="font-big-extralight text-5xl">ABOUT</p>
-        </div>
+        </Link>
         <div className="pl-6 flex flex-col gap-5 w-[24.5%] border-l border-b border-primaryBorder py-5">
           <p className="font-mono-regular flex justify-center items-center w-5 h-5 border border-primaryBorder p-4">
             3
