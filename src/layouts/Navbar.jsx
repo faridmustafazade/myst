@@ -14,7 +14,9 @@ const Navbar = () => {
     <>
       <div>
         <div className="flex items-center justify-between py-6 px-6 border-b border-primaryBorder">
-          <img className="w-32" src={logo} alt="" />
+          <Link to={""}>
+            <img className="w-32" src={logo} alt="" />
+          </Link>
           <div
             className="md:hidden border border-primaryBorder p-5"
             onClick={toggleMenu}
