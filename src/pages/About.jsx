@@ -11,29 +11,49 @@ const About = () => {
   return (
     <div className="py-20 px-4">
       <div>
-        <p className="font-big-bold text-[86px] w-[70%] leading-normal">
+        <p className="font-big-bold md:text-[86px] text-4xl md:w-[70%] leading-normal">
           WE ARE FUELED BY OUR PASSION FOR CREATIVITY, INNOVATION,AND
           CUTTING-EDGE IDEAS.
         </p>
-        <div className="flex items-center justify-between  mt-44 mb-24">
-          <div className="flex items-center w-[55%]">
-            <div className="border border-primaryBorder rounded-full p-10">
-              <img className="h-24 w-24 object-contain" src={logo2} alt="" />
+        <div className="flex flex-col md:flex-row items-center justify-between mt-20 md:mt-44 mb-24">
+          <div className="flex items-center justify-between w-full md:w-[55%]">
+            <div className="border border-primaryBorder rounded-full p-2 md:p-10">
+              <img
+                className="h-10 w-10 md:h-24 md:w-24 object-contain"
+                src={logo2}
+                alt=""
+              />
             </div>
-            <div className="border border-primaryBorder rounded-full p-10">
-              <img className="h-24 w-24 object-contain" src={logo1} alt="" />
+            <div className="border border-primaryBorder rounded-full p-2 md:p-10">
+              <img
+                className="h-10 w-10 md:h-24 md:w-24 object-contain"
+                src={logo1}
+                alt=""
+              />
             </div>
-            <div className="border border-primaryBorder rounded-full p-10">
-              <img className="h-24 w-24 object-contain" src={logo4} alt="" />
+            <div className="border border-primaryBorder rounded-full p-2 md:p-10">
+              <img
+                className="h-10 w-10 md:h-24 md:w-24 object-contain"
+                src={logo4}
+                alt=""
+              />
             </div>
-            <div className="border border-primaryBorder rounded-full p-10">
-              <img className="h-24 w-24 object-contain" src={logo5} alt="" />
+            <div className="border border-primaryBorder rounded-full p-2 md:p-10">
+              <img
+                className="h-10 w-10 md:h-24 md:w-24 object-contain"
+                src={logo5}
+                alt=""
+              />
             </div>
-            <div className="border border-primaryBorder rounded-full p-10">
-              <img className="h-24 w-24 object-contain" src={logo6} alt="" />
+            <div className="border border-primaryBorder rounded-full p-2 md:p-10">
+              <img
+                className="w-10 h-10 md:h-24 md:w-24 object-contain"
+                src={logo6}
+                alt=""
+              />
             </div>
           </div>
-          <p className="font-big-medium text-2xl w-[44%]">
+          <p className="font-big-medium mt-5 md:mt-0 text-2xl md:w-[44%]">
             A customer-focused company that believes in delivering outstanding
             experiences. We are dedicated to nderstanding our clients' unique
             needs and goals, and we work tirelessly to exceed their

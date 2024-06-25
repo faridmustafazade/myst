@@ -9,15 +9,15 @@ const ProductDetail = () => {
   useEffect(() => {
     let data = Products.find((product) => product.title === title);
     setProduct(data);
-  }, [title]); // title bağımlılığını ekleyin
+  }, [title]);
 
   return (
-    <div className="my-24 px-3 flex justify-between items-start">
-      <div className="w-[49%] flex flex-col gap-5">
+    <div className="my-24 px-3 flex md:flex-row flex-col md:justify-between md:items-start md:gap-0 gap-10">
+      <div className="md:w-[49%] flex flex-col gap-5">
         <img src={product.image} alt="" />
         <img src={product.image2} alt="" />
       </div>
-      <div className="w-[49%] flex flex-col gap-5">
+      <div className="md:w-[49%] flex flex-col gap-5">
         <p className="text-white font-big-bold text-5xl uppercase">
           {product.title}
         </p>
