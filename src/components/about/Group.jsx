@@ -8,7 +8,7 @@ const Group = () => {
     setTeam(Team);
   }, []);
   return (
-    <div className="flex flex-col md:flex-row justify-between">
+    <div className="flex flex-col md:flex-row justify-between gap-5 md:gap-0">
       {team.map((member, idx) => (
         <Member
           key={idx}
