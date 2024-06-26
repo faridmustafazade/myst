@@ -17,7 +17,7 @@ const Card = ({ url, title }) => {
             onClick={handleClick}
             className="flex items-center gap-4 bg-black bg-opacity-85 hover:bg-opacity-100 duration-300 cursor-pointer p-1.5 pl-6 rounded-full"
           >
-            <p className="font-big-medium text-2xl">VIEW PROJECT</p>
+            <p className="font-big-medium lg:text-2xl">VIEW PROJECT</p>
             <img src={plus} alt="" />
           </Link>
         </div>

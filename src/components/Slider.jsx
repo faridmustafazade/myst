@@ -3,7 +3,7 @@ import React from "react";
 const Slider = () => {
   return (
     <div className="py-10 border-t border-b border-primaryBorder overflow-hidden">
-      <div className="font-big-regular md:text-9xl text-5xl flex items-center whitespace-nowrap animate-loop-scroll">
+      <div className="font-big-regular lg:text-9xl text-5xl flex items-center whitespace-nowrap animate-loop-scroll">
         <p>
           AGENCY<span className="mx-2">-</span>
         </p>

@@ -11,14 +11,14 @@ const Footer = () => {
   return (
     <>
       <Slider />
-      <div className="my-10 flex md:flex-row flex-col md:items-center md:justify-between px-2 md:px-5">
-        <p className="cursor-pointer flex items-center justify-center font-big-regular text-3xl border border-primaryBorder md:w-[487px] h-[85px]">
+      <div className="my-10 flex lg:flex-row flex-col lg:items-center lg:justify-between px-2 lg:px-5">
+        <p className="cursor-pointer flex items-center justify-center font-big-regular text-3xl border border-primaryBorder lg:w-[487px] h-[85px]">
           info@myst.webflow.io
         </p>
-        <p className="cursor-pointer flex items-center justify-center font-big-regular text-3xl border border-primaryBorder md:w-[487px] h-[85px]">
+        <p className="cursor-pointer flex items-center justify-center font-big-regular text-3xl border border-primaryBorder lg:w-[487px] h-[85px]">
           +399 123 456-78-90
         </p>
-        <div className="flex items-center md:justify-normal justify-center gap-1 border border-primaryBorder p-2">
+        <div className="flex items-center lg:justify-normal justify-center gap-1 border border-primaryBorder p-2">
           <img
             className="cursor-pointer py-3 px-3 md:px-6 border border-primaryBorder bg-[#090909]"
             src={facebook}
